@@ -10,4 +10,4 @@ class Sequential:
         return self.out
     
     def parameters(self):
-        return [p for layer in self.layers for p in layer.parameters]
+        return [p for layer in self.layers for p in layer.parameters()]
